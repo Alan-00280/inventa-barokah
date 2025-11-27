@@ -1,0 +1,15 @@
+{
+  "name": "inventabarokah2",
+  "version": "1.0.0",
+  "description": "Barokah Invetaris Sistem. Projek PBD Semester Tiga",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "dev": "concurrently \"npm start --prefix server\" \"npm run dev --prefix client\" "
+  },
+  "author": "Alan Perdana",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
